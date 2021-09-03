@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="./web3.min.js"></script>
+    <script type="text/javascript" src="./abi.js"></script>
+    <script type="text/javascript" src="./balance.js"></script>
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+
+    <title>The Kindness Exchange</title>
+</head>
+<body>
+    <div class ="container">
+    <h1>The Kindness Exchange</h1>
+    <h2>WALLET</h2>
+    <p>Show ETH Balance:</p>
+    <input type="text" size="50" id="address" />
+
+    <button id="b1" type="button" onClick="getBalance();">Get Balance</button>
+    <br />
+    <br />
+    <div id="output"></div>
+    <p>Show ECO Token Balance:</p>
+    <input type="text" size="50" id="contractAddress" />
+    <button id="b1" type="button" onClick="getERC20Balance();">Get ERC20 Balance</button>
+    <br />
+    <br />
+    <div id="output2"></div>
+</div>
+</body>
+</html>

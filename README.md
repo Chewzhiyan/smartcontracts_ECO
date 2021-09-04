@@ -2,7 +2,7 @@ Connecting metamask to show token balance
 
 All node modules have been installed, in the event web3 shows an error:
 1. Go to terminal
-2. Cd <directory>
+2. Cd directory
 3. npm install web3
 
 Feaures:

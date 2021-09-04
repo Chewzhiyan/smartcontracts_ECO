@@ -6,9 +6,10 @@
 //    console.log(balance);
 
 
+
 const ethereumButton = document.querySelector('.enableEthereumButton');
 const showAccount = document.querySelector('.showAccount');
-//const showBalance = document.querySelector('.showBalance');
+const showBalance = document.querySelector('.showBalance');
 
 ethereumButton.addEventListener('click', () => {
   getAccount();
@@ -20,7 +21,10 @@ async function getAccount() {
   const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
   const account = accounts[0];
   showAccount.innerHTML = account;
-  //showBalance.innerHTML = balance;
+  
+  const balance = await ethereum.request({ method: 'eth_getBalance', params: ["0xF36EAE3B23009fB9D1864B4377605aD2e667EFd4","latest"] });
+ // const balance = balances[0];
+  showBalance.innerHTML = balance;
 }
 
 // const address = getAccount() // Your account address goes here

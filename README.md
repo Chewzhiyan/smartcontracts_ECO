@@ -14,7 +14,7 @@ Feaures:
 - index.html
 - balance.js
 - balanceeth.js
-Adapted from https://github.com/shawntabrizi/ERC20-Token-Balance
+- Adapted from https://github.com/shawntabrizi/ERC20-Token-Balance
 
   - Idea is to get account number from metamask itself and append into the text field through DOM to generate the eth balance instead of manually inputting the account number
 

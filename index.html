@@ -5,16 +5,20 @@
     <script type="text/javascript" src="./web3.min.js"></script>
     <script type="text/javascript" src="./abi.js"></script>
     <script type="text/javascript" src="./balance.js"></script>
+    <script src="balanceeth.js"></script>
     <link rel="stylesheet" type="text/css" href="style1.css" />
 
     <title>The Kindness Exchange</title>
 </head>
 <body>
+    <button class="enableEthereumButton">Enable Ethereum</button>
+    <h2>Account: <span class="showAccount"></span></h2>
     <div class ="container">
     <h1>The Kindness Exchange</h1>
     <h2>WALLET</h2>
+
     <p>Show ETH Balance:</p>
-    <input type="text" size="50" id="address" />
+    <input type="text" size="50" id="address" value=""/>
 
     <button id="b1" type="button" onClick="getBalance();">Get Balance</button>
     <br />

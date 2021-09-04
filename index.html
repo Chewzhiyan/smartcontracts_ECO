@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <script type="text/javascript" src="./web3.min.js"></script>
     <script type="text/javascript" src="./abi.js"></script>
-    <script type="text/javascript" src="./balance.js"></script>
-    <script src="balanceeth.js"></script>
     <link rel="stylesheet" type="text/css" href="style1.css" />
 
     <title>The Kindness Exchange</title>
@@ -18,7 +16,7 @@
     <h2>WALLET</h2>
 
     <p>Show ETH Balance:</p>
-    <input type="text" size="50" id="address" value=""/>
+    <input type="text" size="50" id="showBalance" value=""/>
 
     <button id="b1" type="button" onClick="getBalance();">Get Balance</button>
     <br />
@@ -31,5 +29,8 @@
     <br />
     <div id="output2"></div>
 </div>
+<!-- <script src="balanceeth.js"></script> -->
+<script type="text/javascript" src="./balance.js"></script>
+
 </body>
 </html>

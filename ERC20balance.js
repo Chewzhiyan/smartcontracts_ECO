@@ -21,9 +21,11 @@ const minABI = [
 
 ];
 
+//import account variable from app.js and reassign walletaddress to it
+
 // hardcoded address
 const tokenAddress = "0x169dc01a0873e5a306f83d6b233ca20136c483df";
-const walletAddress = "0xE7AdD65c5C00511821779230Aa7Ee81daF034059";
+const walletAddress = "0xE7AdD65c5C00511821779230Aa7Ee81daF034059"; // require ('./app.js') , var account
 
 // invoking web3 contract method using ABI and tokenaddress as arguements
 

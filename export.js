@@ -2,10 +2,17 @@
 
 // module.exports = account
 
-var window.iAmGlobal = "some val";
+window.iamGlobal = "some val";
 
 function doSomething()
 {
-    alert(window.iAmGlobal);
+    iamGlobal = account;
+
+    // console.log(iamGlobal);
 }
+
+doSomething();
+
+console.log(iamGlobal);
+
 

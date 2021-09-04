@@ -15,7 +15,8 @@ Feaures:
 - balance.js
 - balanceeth.js
 Adapted from https://github.com/shawntabrizi/ERC20-Token-Balance
--> Idea is to get account number from metamask itself and input into the text field to generate the eth balance instead of manually inputting the account number
+
+  - Idea is to get account number from metamask itself and input into the text field to generate the eth balance instead of manually inputting the account number
 
 Disclaimer: metamask do not inject web3 anymore 
 

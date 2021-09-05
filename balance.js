@@ -16,6 +16,7 @@ ethereumButton.addEventListener('click', () => {
     getAccount();
   });
 
+console.log(ethereumButton.src)
 
 //retrieve account from metamask 
 async function getAccount() {
@@ -24,6 +25,8 @@ async function getAccount() {
     // gets the correct ETH wallet from metamask
     console.log(account);
     showAccount.innerHTML = account;
+    // Change to connected button
+    ethereumButton.src = "Connected.png"
 }
 
 const promisify = (inner) =>

@@ -12,7 +12,7 @@ On terminal:
 1. git clone https://github.com/Chewzhiyan/smartcontracts_ECO
 2. cd smartcontracts_ECO (To get into the folder/directory)
 3. git init
-- Note: all node modules have been installed, in the event there was an error for web3: npm install web3
+- Note: all node modules have been installed, in the event there is an error for web3: npm install web3 in terminal
 
 The main files are: <br>
 1. index.html

@@ -1,7 +1,7 @@
 // const { get } = require("https");
 
 // connect html with javascript for button and text
-// const ethereumButton = document.querySelector('.enableEthereumButton');
+const ethereumButton = document.querySelector('.enableEthereumButton');
 const showAccount = document.querySelector('.showAccount');
 
 // Eunice help with this DOM manipulation

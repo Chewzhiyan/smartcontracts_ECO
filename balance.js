@@ -8,8 +8,13 @@ window.addEventListener('load', function () {
     }
 })
 
+const ethereumButton = document.querySelector('.enableEthereumButton');
 const showAccount = document.querySelector('.showAccount');
 const contractECO = "0x169dc01a0873e5a306f83d6b233ca20136c483df";
+
+ethereumButton.addEventListener('click', () => {
+    getAccount();
+  });
 
 
 //retrieve account from metamask 
@@ -72,4 +77,4 @@ async function getERC20Balance() {
     }
 }
 
-getAccount();
+// getAccount();

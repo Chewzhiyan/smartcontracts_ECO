@@ -9,8 +9,8 @@ This project was run on visual studio code <br>
 <h3>To get started:</h3>
 
 On terminal:
-1. git clone https://github.com/Chewzhiyan/smartcontracts_ECO
-2. cd smartcontracts_ECO (To get into the folder/directory)
+1. git clone https://github.com/Chewzhiyan/smartcontracts_TOA
+2. cd smartcontracts_TOA (To get into the folder/directory)
 3. git init
 - Note: all node modules have been installed, in the event there is an error for web3: npm install web3 in terminal
 

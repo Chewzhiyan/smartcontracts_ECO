@@ -1,5 +1,5 @@
-<h2>Smart Contract Project - Show Balance of ERC20 Token with metamask</h2>
-This is a smart contract project that connects metamask account to our application wallet webpage to show balance of ether and ERC20 token balance <br>
+<h2>Smart Contract Project - Show Balance of ERC20 Token with Metamask</h2>
+This is a smart contract project that connects metamask account to our application wallet webpage (The Kindness Exchange) to show balance of ether and ERC20 token balance <br>
 By clicking on connect to wallet button, it will connect to your metamask account through their chrome extension <br>
 From there, you will be able to get your ether balance and token balance <br>
 This will only works with our made ERC20 Token - TOA (Token Of Appreciation) <br>
@@ -9,10 +9,12 @@ This project was run on visual studio code <br>
 <h3>To get started:</h3>
 
 On terminal:
-1. git clone https://github.com/Chewzhiyan/smartcontracts_ECO
-2. cd smartcontracts_ECO (To get into the folder/directory)
+1. git clone https://github.com/Chewzhiyan/smartcontracts_TOA
+2. cd smartcontracts_TOA (To get into the folder/directory)
 3. git init
 - Note: all node modules have been installed, in the event there is an error for web3: npm install web3 in terminal
+
+<h3>The Kindness Exchange Wallet</h3>
 
 The main files are: <br>
 1. index.html

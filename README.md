@@ -14,6 +14,8 @@ On terminal:
 3. git init
 - Note: all node modules have been installed, in the event there is an error for web3: npm install web3 in terminal
 
+<h3>Token Of Appreciation (TOA) Wallet</h3>
+
 The main files are: <br>
 1. index.html
 2. balance.js

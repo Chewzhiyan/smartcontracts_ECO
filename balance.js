@@ -10,7 +10,7 @@ window.addEventListener('load', function () {
 
 const ethereumButton = document.querySelector('.enableEthereumButton');
 const showAccount = document.querySelector('.showAccount');
-const contractECO = "0x169dc01a0873e5a306f83d6b233ca20136c483df";
+const contractECO = "0x43432412eb5f752fa171636f04c5ddf522f7126c";
 
 ethereumButton.addEventListener('click', () => {
     getAccount();

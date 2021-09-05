@@ -9,29 +9,29 @@
     <title>The Kindness Exchange</title>
 </head>
 <body>
-    <button id="b4" class="enableEthereumButton">Connect to Wallet</button>
+    <img src ="Metamask button.png" width="350px" class="enableEthereumButton">
     <br>
-    <h2>Account: <span class="showAccount"></span></h2>
+    <h4>Account: </h4><span class="showAccount"></span>
     <div class ="container">
     <img src = "heartlogopng.png" class = "image"> 
     <h1>The Kindness Exchange</h1>
     <h2>WALLET</h2>
 
-    <p>Show ETH Balance:</p>
-    <input type="text" size="50" id="showBalance" value=""/>
+    <p><h4>Show ETH Balance:</h4></p>
+    <input type="text" size="50" id="showBalance" disabled ="disabled"/>
 
     <button id="b1" type="button" onClick="getBalance();">Get Balance</button>
     <br />
     <br />
     <div id="output"></div>
-    <p>Show TOA Token Balance:</p>
-    <input type="text" size="50" id="showToken" />
+    <p><h4>Show TOA Token Balance:</h4></p>
+    <input type="text" size="50" id="showToken" disabled = "disabled" />
     <button id="b1" type="button" onClick="getERC20Balance();">Get TOA Token Balance</button>
     <br />
     <br />
     <div id="output2"></div>
 </div>
-<!-- <script src="balanceeth.js"></script> -->
+
 <script type="text/javascript" src="./balance.js"></script>
 
 </body>

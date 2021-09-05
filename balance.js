@@ -16,6 +16,7 @@ ethereumButton.addEventListener('click', () => {
     getAccount();
   });
 
+console.log(ethereumButton.src)
 
 //retrieve account from metamask 
 async function getAccount() {
@@ -24,6 +25,8 @@ async function getAccount() {
     // gets the correct ETH wallet from metamask
     console.log(account);
     showAccount.innerHTML = account;
+    // Change to connected button
+    ethereumButton.src = "Connected.png"
 }
 
 const promisify = (inner) =>
@@ -43,7 +46,8 @@ async function getBalance() {
     wei = promisify(cb => web3.eth.getBalance(address, cb))
     try {
         balance = web3.fromWei(await wei, 'ether')
-        document.getElementById("showBalance").value = balance.toFixed(5) + " ETH";
+        document.getElementById("showBalance").value = balance.toFixed(5) + " ETH"
+        document.getElementById("output").innerHTML = "";
     } catch (error) {
         document.getElementById("output").innerHTML = error;
     }
@@ -71,7 +75,8 @@ async function getERC20Balance() {
     try {
         adjustedBalance = await balance / Math.pow(10, await decimals)
         document.getElementById("showToken").value = adjustedBalance;
-        document.getElementById("showToken").value += " " + await symbol + " (" + await name + ")";
+        document.getElementById("showToken").value += " " + await symbol + " (" + await name + ")"
+        document.getElementById("showToken").innerHTML = "";
     } catch (error) {
         document.getElementById("output2").innerHTML = error;
     }
